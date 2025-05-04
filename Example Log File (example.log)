@@ -1,0 +1,12 @@
+192.168.1.101 - - [04/May/2025:07:30:15 +0100] "GET /index.html HTTP/1.1" 200 1500 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+10.0.0.5 - - [04/May/2025:07:31:02 +0100] "POST /login HTTP/1.1" 401 100 "http://example.com/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+10.0.0.5 - - [04/May/2025:07:31:05 +0100] "POST /login HTTP/1.1" 401 100 "http://example.com/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+10.0.0.5 - - [04/May/2025:07:31:08 +0100] "POST /login HTTP/1.1" 401 100 "http://example.com/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+10.0.0.5 - - [04/May/2025:07:31:11 +0100] "POST /login HTTP/1.1" 401 100 "http://example.com/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+10.0.0.5 - - [04/May/2025:07:31:14 +0100] "POST /login HTTP/1.1" 401 100 "http://example.com/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+172.16.0.20 - - [04/May/2025:07:32:00 +0100] "GET /products?category=books' UNION SELECT user, pass FROM users-- HTTP/1.0" 200 500 "-" "sqlmap/1.5.1#stable (http://sqlmap.org)"
+172.16.0.21 - - [04/May/2025:07:33:10 +0100] "GET /../../../../etc/passwd HTTP/1.1" 404 300 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)"
+192.168.1.102 - - [04/May/2025:07:34:00 +0100] "GET /admin/config.php HTTP/1.1" 403 250 "-" "Mozilla/5.0"
+192.168.1.103 - - [04/May/2025:07:35:00 +0100] "GET /scripts/run.cgi?cmd=ls HTTP/1.1" 500 100 "-" "Wget/1.20.3 (linux-gnu)"
+# This line won't match the current regex perfectly due to missing referrer/UA quotes
+10.0.0.6 - - [04/May/2025:07:36:00 +0100] "GET /test HTTP/1.1" 503 0
